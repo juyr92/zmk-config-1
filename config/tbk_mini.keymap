@@ -26,18 +26,18 @@
 
         default_layer {
             bindings = <
-    &kp ESC    &kp Q   &kp W    &kp E    &kp R    &kp T       &kp Y     &kp U     &kp I     &kp O     &kp P           &kp BSPC
-    &kp TAB    &kp A   &kp S    &kp D    &kp F    &kp G       &kp H     &kp J     &kp K     &kp L     &hm RSHFT ENTER &kp C_VOL_UP
-    &kp LCTRL  &kp Z   &kp X    &kp C    &kp V    &kp B       &kp N     &kp M     &kp COMMA &kp DOT   &kp C_MUTE      &kp C_VOL_DN
-                          &kp SPACE   &kp LSHFT   &mo 1       &lt BLUE BSPC &lt NUM SEMI &lt SYMB SPC 
+    &kp ESC    &kp Q   &kp W    &kp E    &kp R    &kp T       &kp Y     &kp U     &kp I     &kp O     &kp P       &kp BSLH
+    &kp TAB    &kp A   &kp S    &kp D    &kp F    &kp G       &kp H     &kp J     &kp K     &kp L     &kp SEMI    &kp SQT
+    &kp LCTRL  &kp Z   &kp X    &kp C    &kp V    &kp B       &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH    &kp RSHFT
+                          &kp SPACE   &kp LSHFT   &mo 1       &mo 2   &kp RET   &kp BSPC
             >;
         };
 
         symbols {
             bindings = <
-    &trans    &none     &kp EXCL  &kp AMPS  &kp STAR  &kp CARET                     &kp GRAVE &kp FSLH  &kp LPAR  &kp RPAR  &none  &trans 
-    &trans    &trans    &kp AT    &kp MINUS &kp EQUAL &none                         &trans    &kp SQT   &kp LBKT  &kp RBKT  &trans &trans
-    &trans    &none     &kp HASH  &kp PRCNT &kp DLLR  &none                         &trans    &kp BSLH  &trans    &trans    &trans &trans
+    &trans    &none     &kp EXCL  &kp AMPS  &kp STAR  &kp CARET                     &kp GRAVE &kp N7  &kp N8  &kp N9  &kp N0  &trans 
+    &trans    &trans    &kp AT    &kp MINUS &kp EQUAL &none                         &trans    &kp N4   &kp N5  &kp N6  &trans &trans
+    &trans    &none     &kp HASH  &kp PRCNT &kp DLLR  &none                         &trans    &kp N1  &kp N2    &kp N3    &trans &trans
                                   &trans    &trans    &trans                        &trans    &trans    &trans
             >;
         };
